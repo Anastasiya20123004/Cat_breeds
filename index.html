@@ -23,11 +23,11 @@ ap-icons.min.css">
       <img class="catstop" src="img/cats.png" alt="frame-2-removebg-preview" border="0">
     </div>
   </header>
-  
-    <form id="searchForm" class="d-flex mx-auto container" role="search">
-      <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search">
-      <button class="btn btn-outline-secondary btn-search" type="submit">Знайти</button>
-    </form>
+
+  <form id="searchForm" class="d-flex mx-auto container" role="search">
+    <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search">
+    <button class="btn btn-outline-secondary btn-search" type="submit">Знайти</button>
+  </form>
   <main>
     <section class="breeds">
       <h1 class="breed">Порода</h1>
@@ -43,7 +43,7 @@ ap-icons.min.css">
           <p>Сомалійська</p>
         </div>
         <div class="breed-1">
-          <img class="four-cats" src="img/image-removebg-preview.png"/>
+          <img class="four-cats" src="img/image-removebg-preview.png" />
           <p>Шотландська</p>
         </div>
         <div class="breed-1">
@@ -75,56 +75,88 @@ ap-icons.min.css">
       </div>
       <div class="row-two">
         <article class="card Ekzotuk">
-        <img src="img/Кішка_екзотик-removebg-preview.png" />
-        <p> Екзотик </p>
+          <img src="img/Кішка_екзотик-removebg-preview.png" />
+          <p> Екзотик </p>
         </article>
         <article class="card Karakal">
-        <img src="img/Каракал_2-removebg-preview 1.png" />
-        <p> Каракал </p>
+          <img src="img/Каракал_2-removebg-preview 1.png" />
+          <p> Каракал </p>
         </article>
         <article class="card Manchkin">
-        <img src="img/Манчкін-removebg-preview.png" />
-        <p> Манчкін </p>
+          <img src="img/Манчкін-removebg-preview.png" />
+          <p> Манчкін </p>
         </article>
       </div>
-
-    <article class="card Maincun">
-    <img src="img/Мейнкун-removebg-preview.png" />
-    <p> Мейнкун </p>
-    </article>
-    <article class="card Siamska">
-    <img src="img/Сіамська_кішка-removebg-preview.png" />
-    <p> Сіамська </p>
-    </article>
-    <article class="card Snow-shu">
-    <img src="img/Сноу-шу_3-removebg-preview.png" />
-    <p> Сноу-шу </p>
-    </article>
-    <article class="card Somaliiska">
-    <img src="img/Сомалійська_кішка_2-removebg-preview.png" />
-    <p> Сомалійська </p>
-    </article>
-    <article class="card Scottish">
-    <img src="img/Шотландська_Джессичка__3-removebg-preview.png" />
-    <p> Шотландська </p>
-    </article>
-    <article class="card Sphynx">
-    <img src="img/Сфінкс-removebg-preview.png" />
-    <p> Сфінкс </p>
-    </article>
-    <article class="card Kornish-rex">
-    <img src="img/Корніш-рекс-removebg-preview.png" />
-    <p> Корніш-рекс </p>
-    </article>
-  </section>
+      <div class="row-three">
+        <article class="card Maincun">
+          <img src="img/Мейнкун-removebg-preview.png" />
+          <p> Мейнкун </p>
+        </article>
+        <article class="card Siamska">
+          <img src="img/Сіамська_кішка-removebg-preview.png" />
+          <p> Сіамська </p>
+        </article>
+        <article class="card Snow-shu">
+          <img src="img/Сноу-шу_3-removebg-preview.png" />
+          <p> Сноу-шу </p>
+        </article>
+      </div>
+      <div class="row-four">
+        <article class="card Somaliiska">
+          <img src="img/Сомалійська_кішка_2-removebg-preview.png" />
+          <p> Сомалійська </p>
+        </article>
+        <article class="card Scottish">
+          <img src="img/Шотландська_Джессичка__3-removebg-preview.png" />
+          <p> Шотландська </p>
+        </article>
+        <article class="card Sphynx">
+          <img src="img/Сфінкс-removebg-preview.png" />
+          <p> Сфінкс </p>
+        </article>
+      </div>
+      <div class="row-five">
+        <div class ="kornish-rex">
+        <article class="card Kornish-rex">
+          <img src="img/Корніш-рекс-removebg-preview.png" />
+          <p> Корніш-рекс </p>
+        </article>
+      </div>
+      </div>
+    </section>
     <!-- Головний контент сторінки -->
   </main>
   <footer>
-    <img src="https://i.ibb.co/ckk2Csk/Viber-removebg-preview.png" alt="Viber-removebg-preview" border="0">
-    <p>Viber: +380660206683 </p>
-    <br>
-    <img src="https://i.ibb.co/QNCk5Mr/Telegram-2-removebg-preview.png" alt="Telegram-2-removebg-preview" border="0">
-    <p>Telegram: +380660206683</p>
+    <div class = "viber_and_telegram">
+    <div class = "viber">
+      <p>Viber: +380660206683 </p>
+    <img src="img/Viber-removebg-preview 3.png">
+  </div>
+    <div class = "telegram">
+      <p>Telegram: +380660206683</p>
+    <img src="img/Telegram_2-removebg-preview.png">
+  </div>
+  </div>
+    <div class="switcher" id="themeToggle"></div>
+      <label class="switch">
+        <input type="checkbox" class="input">
+        <span class="slider"></span>
+        <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <g fill="#ffd43b">
+              <circle r="5" cy="12" cx="12"></circle>
+              <path
+                d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z">
+              </path>
+            </g>
+          </svg></span>
+        <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path
+              d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z">
+            </path>
+          </svg></span>
+        <input type="checkbox" class="input">
+      </label>
+    </div>
     <!-- <div class="switcher">
     <label class="switch"></label>
   <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>

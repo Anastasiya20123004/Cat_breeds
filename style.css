@@ -164,12 +164,154 @@ width: 800px;
   border-radius: 0px;
 }
 
-.row-one, .row-two{
+.row-one, .row-two, .row-three, .row-four{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 62px;
 }
 
 .Karakal img{
-  width: 270px;
+  width: 268px;
+}
+
+.Kornish-rex {
+  display: flex;
+  align-items: left;
+}
+
+.kornish-rex {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 62px;
+  margin-left: 178px;
+}
+
+footer {
+  background-color: #F1F3FF;
+}
+
+.viber{
+  margin-bottom: 31px;
+  display: flex;
+  align-items: center;
+}
+
+.viber_and_telegram {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  flex-direction: column;
+}
+
+.viber text {
+  text-align: center;
+}
+
+.viber img {
+  margin-top: 62px;
+  height: 89px;
+  width: 90px;
+  margin-left: 250px;
+}
+
+.telegram img {
+  height: 89px;
+  width: 90px;
+  margin-left: 250px;
+}
+
+.telegram text {
+  text-align: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  user-select: none; 
+}
+
+.input {
+  opacity: 0; 
+  position: absolute;
+  z-index: -1; 
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #150a4e; 
+  transition: background-color 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 32px;
+  width: 32px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.4s;
+}
+
+.input:checked + .slider {
+  background-color: #2196F3; 
+}
+
+.input:checked + .slider:before {
+  transform: translateX(40px); 
+}
+
+.sun,
+.moon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+.sun {
+  top: 4px;
+  left: 49px; 
+}
+
+.moon {
+  top: 5px;
+  left: 7px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes tilt {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+}
+
+.switch:hover .sun svg {
+  animation: rotate 15s linear infinite; 
+}
+
+.switch:hover .moon svg {
+  animation: tilt 5s linear infinite; 
 }
