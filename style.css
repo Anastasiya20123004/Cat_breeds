@@ -170,14 +170,13 @@ width: 800px;
   margin-top: 62px;
 }
 
+.card-empty{
+  border: none;
+}
 .Karakal img{
   width: 268px;
 }
 
-.Kornish-rex {
-  display: flex;
-  align-items: left;
-}
 
 .kornish-rex {
   display: flex;
@@ -188,50 +187,52 @@ width: 800px;
 
 footer {
   background-color: #F1F3FF;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .viber{
-  margin-bottom: 31px;
-  margin-left: 178px;
   display: flex;
   align-items: center;
-  flex-direction: row;
+  width: 400px;
 }
 
 .viber_and_telegram {
+  width: 1250px;
+  height: 300px;
   display: flex;
-  justify-content: center;
-  align-items: space-around;
+  justify-content: space-around;
+  align-items: flex-start;
   flex-direction: column;
+  border: 2px solid black;
+  padding: 20px 50px; 
+  margin: 0 auto;
 }
 
-.viber text {
-  text-align: center;
-  margin-left: 15px;
-  margin-top: 76px;
-  text-justify: 15px;
+.viber p {
+  font-size: 20px;
 }
 
 .viber img {
-  margin-top: 62px;
   height: 89px;
   width: 90px;
+  margin-right: 50px;
 }
 
 .telegram img {
   height: 89px;
   width: 90px;
+  margin-right: 50px;
 }
 
 .telegram {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  margin-left: 178px;
+  width: 400px;
 }
 
-.telegram text {
-  margin-left: 15px;
+.telegram p {
+  font-size: 20px;
 }
 
 .switch {
