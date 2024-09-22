@@ -192,8 +192,10 @@ footer {
 
 .viber{
   margin-bottom: 31px;
+  margin-left: 178px;
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .viber_and_telegram {
@@ -205,23 +207,31 @@ footer {
 
 .viber text {
   text-align: center;
+  margin-left: 15px;
+  margin-top: 76px;
+  text-justify: 15px;
 }
 
 .viber img {
   margin-top: 62px;
   height: 89px;
   width: 90px;
-  margin-left: 250px;
 }
 
 .telegram img {
   height: 89px;
   width: 90px;
-  margin-left: 250px;
+}
+
+.telegram {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 178px;
 }
 
 .telegram text {
-  text-align: center;
+  margin-left: 15px;
 }
 
 .switch {
