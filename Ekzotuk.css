@@ -17,17 +17,19 @@ h1 {
     margin-top: -53px;
 }
 
-.Abissian_text {
+.Ekzotuk_text {
     margin-left: 41px;
     font-size: 42px;
 }
 
-.Abissian_all img {
-    height: 282px;
-    width: 257px;
+.Ekzotuk_all img {
+    height: 320px;
+    width: 380px;
+    margin-right: 20px;
+    margin-top: 40px;
 }
 
-.Abissian_all {
+.Ekzotuk_all {
     display: flex;
     justify-content: space-around;
 }
