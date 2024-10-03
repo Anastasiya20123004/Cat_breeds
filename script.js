@@ -53,6 +53,16 @@ Scottish.addEventListener("click", function(){
     window.location.assign('Scottish_cat.html')
 })
 
+let Sphynx = document.querySelector(".Sphynx")
+Sphynx.addEventListener("click", function(){
+    window.location.assign('Sphynx.html')
+})
+
+let Kornish_rex = document.querySelector(".Kornish-rex")
+Kornish_rex.addEventListener("click", function(){
+    window.location.assign('Kornish-rex.html')
+})
+
 
 
 
@@ -115,4 +125,14 @@ Somaliiska_in_breeds.addEventListener("click", function(){
 let Scottish_in_breeds = document.querySelector(".Scottish_in_breeds")
 Scottish_in_breeds.addEventListener("click", function(){
     window.location.assign('Scottish_cat.html')
+})
+
+let Sphynx_in_breeds = document.querySelector(".Sphynx_in_breeds")
+Sphynx_in_breeds.addEventListener("click", function(){
+    window.location.assign('Sphynx.html')
+})
+
+let Kornish_rex_in_breeds = document.querySelector(".Kornish-rex_in_breeds")
+Kornish_rex_in_breeds.addEventListener("click", function(){
+    window.location.assign('Kornish-rex.html')
 })
